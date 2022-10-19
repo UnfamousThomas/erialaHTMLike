@@ -7,6 +7,10 @@
     table, th, td {
   border: 1px solid black;
 }
+    .bulletless {
+      list-style-type: none;
+
+    }
 </style>
 <meta charset="UTF-8">
 
@@ -27,7 +31,7 @@
 <img src="https://www.minecraft.net/content/dam/games/minecraft/marketplace/updates-catspandas_latest.jpg
 " alt="Videomäng: Minecraft">
 <h2>Mulle meeldivad mängud:</h2>
-<ul>
+<ul class="bulletless">
     <li>Survival:</li>
     <li><ul>
         <li>Minecraft</li>
@@ -45,17 +49,19 @@
     <tr>
       <th>Mäng</th>
       <th>Tüüp</th>
-      <th>Rating 10st</th>
+      <th colspan="2">Rating 10st</th>
     </tr>
     <tr>
       <td>Minecraft</td>
       <td>Survival</td>
       <td>11</td>
+      <td>15</td>
     </tr>
     <tr>
       <td>GTA 5</td>
       <td>Racing</td>
       <td>8</td>
+      <td>10</td>
     </tr>
   </table>
 </body>
