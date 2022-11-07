@@ -3,15 +3,9 @@
 
 <head>
 <title>Minu leheke</title>
-<style>
-    table, th, td {
-  border: 1px solid black;
-}
-    .bulletless {
-      list-style-type: none;
 
-    }
-</style>
+
+<link rel="stylesheet" href="styles.css">
 <meta charset="UTF-8">
 
 <meta name="description" content="Our first page">
@@ -23,13 +17,22 @@
     saadik meeldinud neid mängida.
 </p>
 <br>
+<div class="row">
+  <div class="column">
+
+
 <a href="https://www.igi-global.com/dictionary/computer-games-language-learning/5038" target="_blank">Uuri rohkem mängude kohta</a>
 <br>
-<a href="aboutme.html">Minu kohta</a>
 
+<a href="aboutme.html">Minu kohta</a>
 <br>
+
+<div class="frame">
 <img src="https://www.minecraft.net/content/dam/games/minecraft/marketplace/updates-catspandas_latest.jpg
 " alt="Videomäng: Minecraft">
+</div>
+</div>
+<div class="column">
 <h2>Mulle meeldivad mängud:</h2>
 <ul class="bulletless">
     <li>Survival:</li>
@@ -45,24 +48,25 @@
         <li>Need for Speed</li>
     </ul></li>
 </ul>
+
 <table>
     <tr>
-      <th>Mäng</th>
-      <th>Tüüp</th>
-      <th colspan="2">Rating 10st</th>
+      <th class="type">Mäng</th>
+      <th class="type">Tüüp</th>
+      <th class="type">Rating 10st</th>
     </tr>
     <tr>
-      <td>Minecraft</td>
+      <td class="game">Minecraft</td>
       <td>Survival</td>
       <td>11</td>
-      <td>15</td>
     </tr>
     <tr>
-      <td>GTA 5</td>
+      <td class="game">GTA 5</td>
       <td>Racing</td>
       <td>8</td>
-      <td>10</td>
     </tr>
   </table>
+</div>
+</div>
 </body>
 </html>
